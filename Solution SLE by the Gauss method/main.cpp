@@ -65,7 +65,7 @@ int main() {
 		if (it != result.end() - 1)
 			cout << *it << ", ";
 		else
-			cout << *it << "}\n";
+			cout << *it << "}\n"; 
 	}
 	_getch();
 	return 0;
