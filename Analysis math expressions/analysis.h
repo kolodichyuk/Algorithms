@@ -37,7 +37,7 @@ class Analysis {
 				else if (operation == "/")
 					result /= partialResult;
 				else if (operation == "%")
-					result = (int)result % (int)partialResult;
+					result = (int)result % (int)partialResult; 
 			}
 			return result;
 		}
