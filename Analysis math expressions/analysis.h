@@ -28,8 +28,7 @@ class Analysis {
 			string operation = "";
 			double partialResult = 0.0;
 			result = ThirdPriority(result);
-			while ((operation = token) == "*" || operation == "/" || operation == "%")
-			{
+			while ((operation = token) == "*" || operation == "/" || operation == "%") {
 				GetToken();
 				partialResult = ThirdPriority(partialResult);
 				if (operation == "*")
